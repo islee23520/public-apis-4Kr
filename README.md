@@ -799,6 +799,25 @@
 
 ---
 
+## 활용 사례 — 서울:전국
+
+[서울:전국](https://github.com/islee23520/seoul-dengoku)은 붕괴된 서울 지하철 세계관의 Godot 4X+RPG 프로젝트입니다. 이 목록에서 게임·위키에 활용할 후보를 조사했습니다(조사만 수행, API 키 발급·외부 호출 없음).
+
+| API (이 목록의 항목) | 서울:전국에서의 활용 |
+| --- | --- |
+| [서울교통공사 역간거리](https://www.data.go.kr/data/15057802/openapi.do) | 역 간 거리·소요시간을 노선 그래프 이동 비용으로 사용 |
+| [서울 지하철 실시간 도착정보](https://data.seoul.go.kr/dataList/OA-12764/A/1/datasetView.do) | 실제 운행 리듬을 이벤트·턴 타이머 시드로 사용 |
+| [레일포털(KRIC)](https://data.kric.go.kr/rips/serviceInfo/openapi/introduce.do) | 전국 철도 정보로 서울 밖 확장 맵 구성 |
+| [브이월드](https://www.vworld.kr/v4po_openapi_s001.do) | 지상 지도·좌표로 타일맵 생성 |
+| [홍수위험지도 정보제공포털](https://data.floodmap.go.kr/main/board/api_data_list_query) | 침수 구역을 터널·구간 지형 효과 근거로 사용 |
+| [KOPIS 공연예술통합전산망](https://www.kopis.or.kr/por/cs/openapi/openApiInfo.do) | 공연장·공연 정보를 문화 거점 설정·위키 문서 소재로 사용 |
+| [국립중앙박물관 e뮤지엄](https://www.emuseum.go.kr/openApi) | 유물 정보를 아이템·도감·위키 소재로 사용 |
+
+- 조사 이슈: [seoul-dengoku#704](https://github.com/islee23520/seoul-dengoku/issues/704), [seoul-dengoku-wiki#703](https://github.com/islee23520/seoul-dengoku-wiki/issues/703)
+- 출처·라이선스: 목록은 이 저장소(MIT)의 항목을 인용한 것이며, 각 API의 이용 조건·인증키 정책·출처 표기 의무는 제공기관 문서를 따릅니다.
+
+**[⬆ 목차로 돌아가기](#목차)**
+
 ## 기여하기
 
 이 목록에 새로운 API를 추가하거나 정보를 수정하고 싶으시다면 Pull Request를 보내주세요. 자세한 내용은 [기여 가이드](./CONTRIBUTING.md)를 참고해주세요.
